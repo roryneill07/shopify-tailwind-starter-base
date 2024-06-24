@@ -8,19 +8,21 @@ module.exports = {
     './snippets/*.liquid',
   ],
   theme: {
-    screens: {
-      sm: '320px',
-      md: '750px',
-      lg: '990px',
-      xlg: '1440px',
-      x2lg: '1920px',
-      pageMaxWidth: '1440px',
+    colors: {
+      'primary': '#fdb819',
+      'secondary': '#212121',
+      'white': '#FFFFFF',
+      'dark-grey': '#282828',
+      'grey': '#D1D2D3'
+
     },
-    extend: {
-      fontFamily: {
-        heading: 'var(--font-heading-family)',
-      },
+    fontFamily: {
+      sans: 'Rubik, sans-serif',
     },
+    container: {
+      center: true,
+    },
+    extend: {},
   },
   plugins: [],
 };
